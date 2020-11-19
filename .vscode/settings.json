@@ -1,18 +1,18 @@
-/*{
-    "git.enabled": false,
-    "files.exclude": {
-      "node_modules": true,
-      ".gitignore": true,
-      "package.json": false,
-      "package-lock.json": true,
-      "public": true,
-      ".editorconfig": true,
-      ".eslintignore": true,
-      ".eslintrc.json": true,
-      "prettier.config.js": true,
-      "tsconfig.json": true,
-      "ConfigDoEditoJson.txt": true,
-      "README.md": true
-    }
-  }*/
+{
+  "git.enabled": false,
+  "files.exclude": {
+    "node_modules": true,
+    ".gitignore": true,
+    "package.json": false,
+    "package-lock.json": true,
+    "public": true,
+    ".editorconfig": true,
+    ".eslintignore": true,
+    ".eslintrc.json": true,
+    "prettier.config.js": true,
+    "tsconfig.json": true,
+    "ConfigDoEditoJson.txt": true,
+    "README.md": true
+  }
+}
 
