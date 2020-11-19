@@ -1,4 +1,4 @@
-{
+/*{
     "git.enabled": false,
     "files.exclude": {
       "node_modules": true,
@@ -14,5 +14,5 @@
       "ConfigDoEditoJson.txt": true,
       "README.md": true
     }
-  }
+  }*/
 
