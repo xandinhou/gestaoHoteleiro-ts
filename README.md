@@ -8,7 +8,7 @@ Aqui é feita algumas configurações do banco como tipo, nome e etc..
 
 ![Create User](./img/CreateUser.png)
 
-#### Verificações
+- #### Verificações
 
 - São feitas antes de serem enviadas para o banco.
 - Email e CPF já cadastrados:
@@ -17,5 +17,6 @@ Aqui é feita algumas configurações do banco como tipo, nome e etc..
 
 ### Atualizações futuras
 
-- Criar uma tabela separada para Adress para facilitar no futuro a análise de dados
-- Login para Customer verificar suas reservas
+- Criar uma tabela separada para Adress para facilitar no futuro a análise de dados.
+- Login para Customer verificar suas reservas.
+- Validação do email, telefone e cpf.
