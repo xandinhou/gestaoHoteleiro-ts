@@ -6,4 +6,4 @@ Aqui é feita algumas configurações do banco como tipo, nome e etc..
 
 ## Criação
 
-![Create User](./imgs/CreateUser.png)
+![Create User](./img/CreateUser.png)
