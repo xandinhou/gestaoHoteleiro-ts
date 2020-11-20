@@ -8,7 +8,7 @@ Aqui é feita algumas configurações do banco como tipo, nome e etc..
 
 ![Create User](./img/CreateUser.png)
 
-## Verificações
+### Verificações
 
 - Algumas verificações são feitas antes de serem enviadas para o banco.
 - Email e CPF já cadastrados:
