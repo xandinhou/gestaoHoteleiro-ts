@@ -27,7 +27,7 @@ class CreateUserService {
       where: { cpf },
     });
 
-    if (checkEmailExists && checkCpfExists) {
+    if (checkEmailExists || checkCpfExists) {
       throw new Error('email adress or cpf already used');
     }
 

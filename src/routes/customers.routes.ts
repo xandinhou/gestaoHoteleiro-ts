@@ -1,10 +1,12 @@
 import { Router } from 'express';
+import { getRepository } from 'typeorm';
+import Customer from '../models/Customer';
 
 import CreateCustomerService from '../services/CreateCustomerService';
 
-const usersRouter = Router();
+const customersRouter = Router();
 
-usersRouter.post('/', async (request, response) => {
+customersRouter.post('/', async (request, response) => {
   try {
     const { name, email, cpf, adress, phone } = request.body;
 
@@ -24,4 +26,15 @@ usersRouter.post('/', async (request, response) => {
   }
 });
 
-export default usersRouter;
+customersRouter.get('/', async (request, response) => {
+  try {
+    const customersRepository = getRepository(Customer);
+    const customers = await customersRepository.find();
+
+    return response.json(customers);
+  } catch (err) {
+    return response.status(400).json({ error: err.message });
+  }
+});
+
+export default customersRouter;

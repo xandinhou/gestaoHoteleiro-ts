@@ -8,6 +8,8 @@ Aqui é feita algumas configurações do banco como tipo, nome e etc..
 
 ## Customer
 
+- Aqui será apresentado algumas funçoes da API.
+
 ### Criação
 
 ![Create User](./img/CreateUser.png)
@@ -18,6 +20,12 @@ Aqui é feita algumas configurações do banco como tipo, nome e etc..
 - Email e CPF já cadastrados:
 
 ![Create User Error](./img/CreateUserError.png)
+
+### Buscando
+
+- Buscando todos Customer cadastrados
+
+![List Users](./img/ListUsers.png)
 
 ### Atualizações futuras
 
