@@ -1,4 +1,8 @@
-# OrmConfig.json
+# Sobre o projeto
+
+Um projeto que tem o objetivo principal de aprimorar meus conhecimentos,consite em uma API para gestão de resevas de casas/apartamentos para o fim de semana
+
+## OrmConfig.json
 
 Aqui é feita algumas configurações do banco como tipo, nome e etc..
 
@@ -8,7 +12,7 @@ Aqui é feita algumas configurações do banco como tipo, nome e etc..
 
 ![Create User](./img/CreateUser.png)
 
-- #### Verificações
+#### Verificações
 
 - São feitas antes de serem enviadas para o banco.
 - Email e CPF já cadastrados:
