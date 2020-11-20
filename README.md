@@ -2,4 +2,8 @@
 
 Aqui é feita algumas configurações do banco como tipo, nome e etc..
 
-# Projeto
+# Customer
+
+## Criação
+
+![Create User](./imgs/CreateUser.png)

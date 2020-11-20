@@ -1,6 +1,8 @@
-import { response, Router } from 'express';
+import { Router } from 'express';
+
+import customerRoute from './customers.routes';
 
 const routes = Router();
 
-routes.use('/', () => response.json('Hello Word'));
+routes.use('/customer', customerRoute);
 export default routes;
