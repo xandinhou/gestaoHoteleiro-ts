@@ -2,20 +2,20 @@
 
 Aqui é feita algumas configurações do banco como tipo, nome e etc..
 
-# Customer
+## Customer
 
-## Criação
+### Criação
 
 ![Create User](./img/CreateUser.png)
 
-### Verificações
+#### Verificações
 
 - São feitas antes de serem enviadas para o banco.
 - Email e CPF já cadastrados:
 
 ![Create User Error](./img/CreateUserError.png)
 
-## Atualizações futuras
+### Atualizações futuras
 
 - Criar uma tabela separada para Adress para facilitar no futuro a análise de dados
 - Login para Customer verificar suas reservas
